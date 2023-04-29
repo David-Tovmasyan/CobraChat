@@ -3,7 +3,7 @@ import Main from './components/Main.vue'
 </script>
 
 <template>    
-  <Main msg="Cobra Chat"></Main> 
+  <Main></Main> 
 </template>
 
 <style scoped>
