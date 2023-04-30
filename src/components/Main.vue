@@ -1,13 +1,16 @@
 <script setup>
 
+import Form from './Form.vue';
+function myAlert() {
+    alert("message");
+}
 
 </script>
 
 <template>
     <div class="page_container">
-        <header>
+        <header @click="myAlert">
           <img src="/logo.png" alt="Logo" class="logo">
-          
           
         </header>
         <main>
@@ -19,7 +22,8 @@
         </main>
           
         <footer>Footer</footer>
-    </div>
+    </div> -->
+    <Form></Form> 
 </template>
 
 <style scoped>
