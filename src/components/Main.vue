@@ -1,4 +1,5 @@
 <script setup>
+import Form from './Form.vue';
 function myAlert() {
     alert("message");
 }
@@ -6,14 +7,14 @@ function myAlert() {
 </script>
 
 <template>
-    <div class="page_container">
+    <!-- <div class="page_container">
         <header @click="myAlert">
           <img src="/logo.png" alt="Logo" class="logo">
-          
         </header>
         <main>Main</main>
         <footer>Footer</footer>
-    </div>
+    </div> -->
+    <Form></Form> 
 </template>
 
 <style scoped>
