@@ -22,7 +22,7 @@ function myAlert() {
         </main>
           
         <footer>Footer</footer>
-    </div> -->
+    </div> 
     <Form></Form> 
 </template>
 
