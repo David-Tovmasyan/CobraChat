@@ -20,16 +20,19 @@ import Form from './Form.vue';
         <div class="info">
           <div class="nickname"></div>
           <div class="settings"></div>
+          
         </div>
+        <Form></Form>
       </div>
     </main>
 
 
   </div>
-  <Form></Form>
+  
 </template>
 
 <style scoped>
+
 .page_container {
   display: grid;
   grid-template-rows: 100px calc(100vh - 100px);
@@ -50,28 +53,37 @@ header {
 }
 
 main {
+  
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 20% 1% 79%;
   grid-template-rows: 100%;
 }
 
 .contacts {
+  background-color: #3b3a3a;
   display: flex;
   justify-content: center;
 }
 
 .Search {
-  background-color: rgb(2, 255, 124);
+  
   border-radius: 10px;
-  border: 1px solid blue;
+  border: 1px solid rgb(0, 0, 0);
   width: 150px;
-  height: 25px;
+  height: 30px;
+  
 }
-
+::placeholder{
+  color: rgb(33, 1, 94);
+}
 .line {
   display: inline-block;
   background-color: rgb(86, 206, 86);
   width: 5px;
   height: 100%;
+}
+.chat{
+  background-color: rgb(66, 212, 175);
+  
 }
 </style>
